@@ -5,6 +5,7 @@ export default function Navbar() {
 		<nav style={{ display: "flex", gap: "1rem", padding: "1rem" }}>
 			<Link to="/">Home</Link>
 			<Link to="/ateliers-pratique">Ateliers</Link>
+			<Link to="/participants">Participants</Link>
 			<Link to="/contact">Contact</Link>
 		</nav>
 	);
