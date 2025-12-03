@@ -1,6 +1,6 @@
 export default function Home() {
 	return (
-		<div>
+		<div className="page">
 			<h1>Bienvenue sur la page d'accueil</h1>
 			<p>
 				Ceci est une page très simple avec uniquement du texte. Utilisez la

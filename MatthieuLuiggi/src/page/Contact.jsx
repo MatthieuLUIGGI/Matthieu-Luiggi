@@ -18,12 +18,12 @@ export default function Contact() {
   };
 
   return (
-    <div style={{ padding: "2rem" }}>
+    <div className="page">
       <h1>Page Contact</h1>
 
-      <form 
-        onSubmit={handleSubmit} 
-        style={{ display: "flex", flexDirection: "column", gap: "1rem", maxWidth: "400px" }}
+      <form
+        onSubmit={handleSubmit}
+        className="form"
       >
         <label>
           Nom :
@@ -40,7 +40,7 @@ export default function Contact() {
           <textarea value={message} onChange={(e) => setMessage(e.target.value)} required />
         </label>
 
-        <button type="submit">Envoyer</button>
+        <button type="submit" className="btn-primary">Envoyer</button>
       </form>
     </div>
   );

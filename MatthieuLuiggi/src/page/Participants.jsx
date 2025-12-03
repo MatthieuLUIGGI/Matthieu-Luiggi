@@ -1,9 +1,9 @@
 export default function Participants() {
   const noms = ["Alice", "Bob", "Charlie", "Diana"];
   return (
-    <div style={{ padding: "2rem" }}>
+    <div className="page">
       <h1>Participants</h1>
-      <ul style={{ listStyle: "disc", paddingLeft: "1.5rem" }}>
+      <ul>
         {noms.map((nom) => (
           <li key={nom}>{nom}</li>
         ))}
