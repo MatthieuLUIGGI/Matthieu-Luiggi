@@ -14,7 +14,6 @@ export default function Contact() {
       return;
     }
     console.log({ nom, email, message });
-    alert(`Nom : ${nom}\nEmail : ${email}\nMessage : ${message}`);
     navigate("/confirmation");
   };
 
