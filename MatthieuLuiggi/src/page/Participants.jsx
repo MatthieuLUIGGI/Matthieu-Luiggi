@@ -1,5 +1,5 @@
 export default function Participants() {
-  const noms = ["Alice", "Bob", "Charlie", "Diana"];
+  const noms = ["Alice", "Bob"];
   return (
     <div className="page">
       <h1>Participants</h1>
